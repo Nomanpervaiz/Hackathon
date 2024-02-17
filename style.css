@@ -1,0 +1,79 @@
+.navbar{
+    background-color: white !important;
+    text-align: center;
+
+}
+.btn{
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(201, 200, 200);
+    margin: auto;
+}
+.deliver a{
+    font-weight: 700;
+}
+.location-icon img{
+    vertical-align: top;
+}
+.foodmarker {
+    width: 20%;
+ }
+ .btn img{
+    margin: 0px 3px ;
+ }
+ .address a {
+    font-weight: 700;
+
+ }
+
+ /* section-one  */
+
+ .section-one::before{
+    content: "";
+    position: absolute;
+    background-color: gold;
+    height: 500px ;
+    width: 100%;
+left: 0%;
+z-index: -1;
+ }
+ .section-one{
+    position: static;
+ background: url(image/Image.png) no-repeat center right ;
+    height: 500px ;
+ }
+ .home-text{
+     padding-top: 120px;
+ }
+ .home-text h1{
+    font-size: 4rem ;
+    color: white;
+    width: 50%;
+ }
+ .home-text p{
+    width: 50%;
+ }
+ .iner-main{
+    background-color: white;
+    border-radius: 20px ;
+    height: 200px ;
+    width: 44%;
+ }
+ .iner-uper{
+    padding-top: 40px ;
+    padding-left: 10px ;
+ }
+
+ .iner-lower input{
+    padding: 10px ;
+    margin-right: 10px ;
+    border-radius: 2px ;
+ }
+ .iner-lower input{
+
+    margin-left: 10px ;
+    padding: 10px ;
+    margin-right: 10px ;
+    border: none;
+    box-shadow: 0px 0px 1px ;
+    border-radius: 2px ;
+ }
